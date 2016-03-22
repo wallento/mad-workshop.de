@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>MAD Workshop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MAD</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Workshop 2015</a></li>
+            <li><a href="2014.html">Workshop 2014</a></li>
+            <li class="active"><a href="2013.html">Workshop 2013</a></li>
+<!--            <li><a href="#slides">Slides</a></li>
+            <li><a href="#about">About</a></li>-->
+            <li><a href="mailto:mad-workshop@lis.ei.tum.de">Contact</a></li>
+            <li><a href="http://www.lis.ei.tum.de/en/fp/impressum/">Imprint</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Multicore Application Debugging Workshop</h1>
+        <p><img src="group.png" align="right">On November 14th and 15th, 2013, the <a href="http://www.lis.ei.tum.de">Institute for Integrated Systems at Technische Universität München</a> and the <a href="http://www.ice.rwth-aachen.de">Institute for Communication Technologies and Embedded System at RWTH Aachen</a> jointly organized a workshop on the challenges of debugging in the multicore era. Around 50 participants have been invited to attend the workshop and 22 presentations on a broad range of topics targeting the multicore debugging challenge have been arranged. The workshop was a great success. Below you can find the presentations held at the workshop. If you want to get updated about plans of the workshop in 2014, please contact <a href="mailto:mad-workshop@lis.ei.tum.de">mad-workshop@lis.ei.tum.de</a>.
+	</p>
+
+	<h2>Program &amp; Slides</h2>
+	(All slides are copyrighted by the authors)
+
+        <h3>Session 1: The Need for Multicore Debugging</h3>
+	<ul>
+	<li><b>Sporadic Failures - Implications for Multicore</b><br/>
+	   <i>Münz, Franz (Cassidian)</i> <a href="slides/1_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Multi-Core debugging challenges for the automotive domain</b><br/>
+           <i>Härdtlein, Jochen (Bosch)</i> <a href="slides/1_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Unpicking the weave: A practitioners view of challenges faced in debugging multi-threaded / many-core applications</b><br/>
+	   <i>Hickey, Neil (Samsung)</i> <a href="slides/1_3.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 2: Trace Debugging Concepts</h3>
+	<ul>
+	<li><b>State-of-the-art Multicore Debugging and Tracing concepts</b><br/>
+	   <i>Merkle, Alexander (Lauterbach)</i> <a href="slides/2_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Trace Debugging in Academics – the Future of Multicore Debugging?</b><br/>
+	   <i>Wagner, Philipp (TU München)</i> <a href="slides/2_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 3: Simulation-based Debugging and Trace Analysis</h3>
+	<ul>
+	<li><b>Analysis of simulation traces for the debug of HW/SW multiprocessor systems</b><br/>
+	   <i>Fournel, Nicolas (University of Grenoble, TIMA lab)</i> <a href="slides/3_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Automatic exploration of SW concurrency bugs through deterministic behavior control</b><br/>
+	   <i>Murillo, Luis (RWTH Aachen)</i> <a href="slides/3_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 4: Software Debugging Techniques</h3>
+	<ul>
+	<li><b>Finding the needle in the haystack: System software debugging at the right level of abstraction</b><br/>
+	   <i>Nohl, Achim (Synopsys)</i> <a href="slides/4_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Data race detection with GDB</b><br/>
+	   <i>Tedeschi, Walfred (Intel)</i> <a href="slides/4_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Synchronized debugging of heterogeneous processors on an MPSoC for high-speed mobile communications</b><br/>
+	   <i>Steeb, Uwe (Intel Mobile Communications)</i> <a href="slides/4_3.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 5: Dealing with Non-functional Requirements</h3>
+	<ul>
+	<li><b>Use of functionality debugging methods for debugging of non-functional properties</b><br/>
+	   <i>Roychoudhury, Abhik (National University of Singapore)</i> <a href="slides/5_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Debugging tool functionality for Multicore real-time applications under Linux</b><br/>
+	   <i>Wrobel, Heinz (Freescale)</i> <a href="slides/5_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 6: HW Support for Debugging</h3>
+	<ul>
+	<li><b>Transactor-based debugging of massively parallel processor array architectures</b><br/>
+	   <i>Blocherer, Markus (University of Erlangen)</i> <a href="slides/6_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Intel(R) Processor Trace: what it is and how to decode it</b><br/>
+	   <i>Metzger, Markus (Intel)</i> <a href="slides/6_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Energy efficient watchpoint systems</b><br/>
+	   <i>Unsal, Osman (Barcelona Supercomputing Center)</i> <a href="slides/6_3.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 7: Observability and Runtime Verification</h3>
+	<ul>
+	<li><b>Observation of multicore SoCs</b><br/>
+	   <i>Weiss, Alexander (Accemic)</i> <a href="slides/7_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Hunting non-deterministic failures with Runtime Verification</b><br/>
+	   <i>Leucker, Martin (University of Lübeck)</i> <!--<a href="slides/7_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>-->
+	<li><b>Adaptive Runtime Verification</b><br/>
+	   <i>Grosu, Radu (TU Wien)</i> <a href="slides/7_3.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 8: Software and Models</h3>
+	<ul>
+	<li><b>How model-based design simplifies the debugging of many-core systems</b><br/>
+	  <i>Bacivarov, Iuliana (ETH Zürich)</i> <a href="slides/8_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Debugging of application software based on KPN on heterogeneous multi-/ many-core processors</b><br/>
+	  <i>Matsumoto, Yukoh (TOPS Systems)</i> <a href="slides/8_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+	<h3>Session 9: Compilers and Beyond Debugging</h3>
+	<ul>
+	<li><b>Multicore debugging from a SW compiler perspective</b><br/>
+	   <i>Roodzant, Marco (ACE)</i> <a href="slides/9_1.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	<li><b>Embedded Health - The step beyond debugging</b><br/>
+	   <i>Mayer, Albrecht (Infineon)</i> <a href="slides/9_2.pdf"><span class="glyphicon glyphicon-floppy-save downloadlink"></span></a></li>
+	</ul>
+
+      </div>
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
